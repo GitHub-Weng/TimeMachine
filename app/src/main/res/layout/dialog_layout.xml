@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+		android:text="@string/gif"
+		android:textSize="20sp"
+		android:layout_marginLeft="60dp"
+		android:gravity="center"
+		android:textColor="#33475f"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignBottom="@+id/imageButtongif"
+		android:layout_alignTop="@+id/imageButtongif"/>
+	<ImageButton
+		android:background="#ffffff"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/gif"
+		android:layout_gravity="right"
+		android:id="@+id/imageButtongif"
+		android:layout_alignParentTop="true"
+		android:layout_alignLeft="@+id/imageButtonpic"
+		android:layout_alignStart="@+id/imageButtonpic"
+		android:layout_marginTop="28dp"/>
+
+	<TextView
+		android:layout_marginLeft="60dp"
+		android:text="@string/pic"
+		android:textSize="20sp"
+		android:gravity="center"
+		android:textColor="#33475f"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView3"
+		android:layout_alignTop="@+id/imageButtonpic"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:layout_alignBottom="@+id/imageButtonpic"/>
+	<ImageButton
+
+		android:background="#ffffff"
+		android:layout_marginRight="60dp"
+		android:layout_marginBottom="30dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/pic"
+		android:layout_gravity="right"
+		android:id="@+id/imageButtonpic"
+		android:layout_marginTop="31dp"
+		android:layout_below="@+id/imageButtongif"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentEnd="true"/>
+</RelativeLayout>
