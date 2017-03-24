@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TimeMachine2</string>
+    <string name="gif">分享Gif</string>
+    <string name="pic">分享图片</string>
+</resources>
