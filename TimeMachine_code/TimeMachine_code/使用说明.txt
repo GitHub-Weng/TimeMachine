@@ -1,1 +1,0 @@
-eclipse中的运行ServerTest，matlab中运行Socket.m,安卓安装软件之后开启热点，电脑连接手机热点，手机客户端进行操作。
